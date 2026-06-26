@@ -1,0 +1,35 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Data and notebook checkpoints
+.ipynb_checkpoints/
+data/raw/
+data/interim/
+data/processed/
+
+# Build outputs
+dist/
+build/
